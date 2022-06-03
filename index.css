@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior:smooth;
+}
+
+h1{font-size: 5,5em;}
+h2 {font-size: 2,5em;}
+h3 {font-size: 2e,;}
+p{font-size: 1,25em;}
+ul {list-style: none; }
+li {font-size: 1,25em;}
+
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+
+}
+
+.color-acento {color:rgb(71, 130, 238)}
+
+header{
+    background-color: rgb(230,230,230);
+}
+
+header .logo{
+    margin: 0;
+    padding: 20px 30px;
+    font-weight: bold;
+    color: cornflowerblue;
+    font-size: 5em;
+    font-style: oblique;
+    text-align: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 1.5em;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight:bold;
+    color: black;
+    
+}
+
+header a:hover{
+    color: cornflowerblue;
+    
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: rgb(255, 245, 245);
+    background-image: linear-gradient(
+         0deg, 
+        rgb(0,0,0,0.5),
+        rgb(0,0,0,0.5)
+    )
+    , url( "media/cccc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
+#hero h1{
+    color: cornflowerblue;
+    font-size: 7em;
+    background-color: rgba(0, 0, 0, 0.452);
+    border-radius: 10px ;
+    box-shadow: 6px 6px 40px rgba(0,0,0,0.5);
+    background-position: center;
+    
+    
+}
+
+
+
+
+header .container{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#Somos-Hycean .container{
+    text-align: center;
+    padding: 400px 15px ;
+}
+
+#Nuestros-Buzos{
+    background-color: rgb(29,29,29);
+    color: white;
+    text-align: center;
+
+}
+
+#Nuestros-Buzos .container{
+    padding: 150px 12px;
+}
+
+#Nuestros-Buzos h2{
+    margin-top: 0;
+    font-size: 3em;
+    }
+
+
+
+    #Nuestros-Buzos p{
+     font-size: 1em;
+     margin-top: 0;
+     padding: 5px 5px;
+     
+    }
+
+    #Nuestros-Buzos .carta{
+        background-position: center center;
+        background-size: cover;
+        padding: 50px 0px;
+        margin: 23px;
+        border-radius: 15px;
+        border: 2px solid cornflowerblue;
+    
+    }
+
+    .carta:nth-child(2){
+        background-image: linear-gradient(
+            0deg,
+            rgb(0,0,0,0.5),
+            rgb(0,0,0,0.5)
+        )
+        ,url("media/sin\ relleno.jpg");
+
+        
+    }
+
+    .carta:nth-child(3){
+        
+        background-image: linear-gradient(
+            0deg,
+            rgb(0,0,0,0.5),
+            rgb(0,0,0,0.5)
+        )
+        ,url("media/con\ relleno.jpg");
+    }
+
+    #Medios-de-Pago .container{
+        text-align: center;
+        padding: 250px 12px;
+    }
+        
+
+    #Medios-de-Pago li{
+        margin: 16px 0px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    
+
+    footer{
+        background-color: rgb(230,230,230);
+        
+    }
+    
+    footer .container{
+        height: 150px;
+        display: flex;
+        justify-content:  center;
+
+    }
+
+
+body{
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.247);
+    font-family: 'roboto', sans-serif;
+    
+}
+
