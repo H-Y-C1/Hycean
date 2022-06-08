@@ -74,8 +74,17 @@ header a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    
+    border-radius: 10px 
 }
+
+#hero:hover {
+    background: url("media/descarga\ \(1\).jfif");
+    transition-duration: 3s;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
 #hero h1{
     color: cornflowerblue;
     font-size: 7em;
@@ -145,7 +154,14 @@ header .container{
         )
         ,url("media/sin\ relleno.jpg");
 
+        }
+    
+         .carta:nth-child(2):hover{
         
+        background: url("media/sin\ relleno\ 1.jpg");
+        background-repeat: no-repeat;
+        background-position: center center; 
+        transform-style: flat;
     }
 
     .carta:nth-child(3){
@@ -156,6 +172,12 @@ header .container{
             rgb(0,0,0,0.5)
         )
         ,url("media/con\ relleno.jpg");
+    }
+
+    .carta:nth-child(3):hover{
+        background: url("media/con\ relleno1.jpg");
+        background-repeat: no-repeat;
+        background-position: center center; 
     }
 
     #Medios-de-Pago .container{
